@@ -1,0 +1,11 @@
+node ('worker_node1') {
+  stage('Build') { // Get code
+    // get code from our Git repository
+    echo  'Build from git'
+  }
+  stage('Compile') { // Compile and do unit testing
+ echo  'Compile from git'
+
+   
+  }
+}
