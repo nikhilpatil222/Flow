@@ -4,7 +4,7 @@ node ('worker_node1') {
     echo  'Build from git'
   }
   stage('Compile5') { // Compile and do unit testing
- echo  'Compile from git'
+ echo  'Compile from git5'
 
    
   }
