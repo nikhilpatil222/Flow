@@ -1,9 +1,9 @@
 node ('worker_node1') {
-  stage('Build2') { // Get code
+  stage('Build4') { // Get code
     // get code from our Git repository
     echo  'Build from git'
   }
-  stage('Compile2') { // Compile and do unit testing
+  stage('Compile4') { // Compile and do unit testing
  echo  'Compile from git'
 
    
